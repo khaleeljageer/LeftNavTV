@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:id="@+id/cllHomeView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/drawable_menu_hover"
+        android:gravity="center_vertical"
+        android:nextFocusUp="@id/cllSettingsView"
+        android:nextFocusDown="@id/cllSearchView"
+        android:orientation="horizontal"
+        android:paddingStart="40dp"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:id="@+id/civHome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/home_menu"
+            android:src="@drawable/ic_baseline_home_24" />
+
+        <TextView
+            android:id="@+id/txtHomeMenuLabel"
+            style="@style/LeftMenuStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cllSearchView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/drawable_menu_hover"
+        android:gravity="center_vertical"
+        android:nextFocusUp="@id/cllHomeView"
+        android:nextFocusDown="@id/cllSettingsView"
+        android:orientation="horizontal"
+        android:paddingStart="40dp"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:id="@+id/civSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/search_menu"
+            android:src="@drawable/ic_baseline_search_24" />
+
+        <TextView
+            android:id="@+id/txtSearchMenuLabel"
+            style="@style/LeftMenuStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cllSettingsView"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:background="@drawable/drawable_menu_hover"
+        android:gravity="center_vertical"
+        android:nextFocusUp="@id/cllSearchView"
+        android:nextFocusDown="@id/cllHomeView"
+        android:orientation="horizontal"
+        android:paddingStart="40dp"
+        tools:ignore="RtlSymmetry">
+
+        <ImageView
+            android:id="@+id/civSettings"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:contentDescription="@string/settings_menu"
+            android:src="@drawable/ic_baseline_settings_24" />
+
+        <TextView
+            android:id="@+id/txtSettingsMenuLabel"
+            style="@style/LeftMenuStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</merge>

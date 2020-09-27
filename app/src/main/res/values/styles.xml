@@ -1,0 +1,17 @@
+<resources>
+
+    <style name="AppTheme" parent="@style/Theme.Leanback" />
+
+
+    <style name="SplashTheme" parent="Theme.Leanback">
+        <item name="android:windowBackground">@drawable/splash_window_bg</item>
+    </style>
+
+
+    <style name="LeftMenuStyle">
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_marginStart">14dp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>
+</resources>
