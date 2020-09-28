@@ -6,3 +6,4 @@ Android TV custom left menu navigation like hotstar, netflix. This is one is not
 # Screenshot
 ![](screenshot/search_focus_collapsed.png?raw=true)
 ![](screenshot/search_focus_expanded.png?raw=true)
+![](screenshot/home_focus_collapsed.png?raw=true)
